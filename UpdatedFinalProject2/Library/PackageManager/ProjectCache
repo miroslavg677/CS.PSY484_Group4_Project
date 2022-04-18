@@ -563,10 +563,61 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.4-preview
+    - 0.1.8-preview
+    - 0.1.10-preview
+    - 0.1.12-preview.2
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.2.0-preview.1
+    - 0.2.1-preview.1
+    - 0.2.2-preview
+    - 0.2.3-preview.1
+    - 0.3.0-preview.5
+    - 0.4.0-preview.1
+    - 0.5.0-preview.2
+    - 0.5.1-preview
+    - 0.5.1-preview.1
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3-preview.1
+    - 1.0.3-preview.2
+    - 1.0.3
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 2.0.0-pre.1
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1-pre.1
+    - 2.1.1-pre.2
     - 2.1.1
+    - 2.1.2-pre.2
+    - 2.1.2
+    - 2.2.0
+    - 2.2.1
     compatible:
     - 2.1.1
-    verified: 2.1.1
+    - 2.1.2-pre.2
+    - 2.1.2
+    - 2.2.0
+    - 2.2.1
+    verified: 2.1.2
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
@@ -588,7 +639,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637715563830000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -1081,7 +1132,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1098,10 +1149,25 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
     - 1.7.6
+    - 1.7.7
+    - 1.8.0-pre.1
     compatible:
     - 1.7.6
-    verified: 1.7.6
+    - 1.7.7
+    verified: 1.7.7
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -1126,7 +1192,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637722460580000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3031,6 +3097,29 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
     - 2.1.9
     compatible:
     - 2.1.9
@@ -3066,7 +3155,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637812095140000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3098,10 +3187,16 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
     - 1.1.0
+    - 1.1.1
     compatible:
     - 1.1.0
-    verified: 1.1.0
+    - 1.1.1
+    verified: 1.1.1
   dependencies:
   - name: com.unity.modules.subsystems
     version: 1.0.0
@@ -3123,7 +3218,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637314426150000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3271,9 +3366,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     compatible:
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
@@ -3287,12 +3391,12 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
@@ -3373,9 +3477,11 @@ m_ResolvedPackages:
     - 3.0.0-pre.2
     - 3.0.0-pre.4
     - 3.0.0
+    - 3.0.1
     compatible:
     - 3.0.0
-    verified: 3.0.0
+    - 3.0.1
+    verified: 3.0.1
   dependencies:
   - name: com.unity.xr.management
     version: 4.2.0
@@ -3458,8 +3564,12 @@ m_ResolvedPackages:
     - 1.2.8
     - 1.3.0
     - 1.3.1
+    - 1.4.0
+    - 1.4.1
     compatible:
     - 1.3.1
+    - 1.4.0
+    - 1.4.1
     verified: 1.3.1
   dependencies:
   - name: com.unity.xr.management
@@ -3630,6 +3740,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.4
     - 1.2.0-exp.5
     - 1.2.0-exp.6
+    - 1.2.0-exp.7
     compatible:
     - 1.0.1
     - 1.1.0
@@ -3640,6 +3751,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.4
     - 1.2.0-exp.5
     - 1.2.0-exp.6
+    - 1.2.0-exp.7
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
