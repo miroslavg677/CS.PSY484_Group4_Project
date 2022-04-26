@@ -1,0 +1,376 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'en' Physical Memory: 3787 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+55494
+Successfully changed project path to: C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2
+C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 464.86 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 14.02 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     1893 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016240 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 136.48 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (527ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (124ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.063932 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 487.61 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 2.54 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <780782bc035845f9909cebbd4c983ae3>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7697ms)
+		BeginReloadAssembly (665ms)
+			ExecutionOrderSort (1ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (6ms)
+			CreateAndSetChildDomain (180ms)
+		EndReloadAssembly (6776ms)
+			LoadAssemblies (377ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (534ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (151ms)
+			SetupLoadedEditorAssemblies (5677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (490ms)
+				BeforeProcessingInitializeOnLoad (559ms)
+				ProcessInitializeOnLoadAttributes (4410ms)
+				ProcessInitializeOnLoadMethodAttributes (176ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 5.13 seconds
+Refreshing native plugins compatible for Editor in 30.41 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 3.74 ms.
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (345.4 KB). Loaded Objects now: 4507.
+Memory consumption went from 168.7 MB to 168.4 MB.
+Total: 3280.289900 ms (FindLiveObjects: 193.165600 ms CreateObjectMapping: 1.251200 ms MarkObjects: 3075.680100 ms  DeleteObjects: 5.518300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328408.482434 seconds.
+  path: Assets/Medieval house/Textures & Materials/window.png
+  artifactKey: Guid(00bbceed53984f24ba4ce88208e91f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval house/Textures & Materials/window.png using Guid(00bbceed53984f24ba4ce88208e91f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdfa424cbe0af74e62e8750bae6a2a1') in 6.808018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Medieval house/Textures & Materials/concrete_2.png
+  artifactKey: Guid(781d77900ff517846998f7284c75b75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval house/Textures & Materials/concrete_2.png using Guid(781d77900ff517846998f7284c75b75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff75ba482ea722e27f8052b93b0a16e') in 0.109886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Medieval house/Textures & Materials/end_NRM.png
+  artifactKey: Guid(0a53f74766919ec4abfcd673c6a3ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval house/Textures & Materials/end_NRM.png using Guid(0a53f74766919ec4abfcd673c6a3ca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460d6cb114cc696b2a619be04b08bc27') in 0.969592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Medieval house/Textures & Materials/window_NRM.png
+  artifactKey: Guid(105ab64cb14e74b4291c17b2324a770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval house/Textures & Materials/window_NRM.png using Guid(105ab64cb14e74b4291c17b2324a770e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e411869991bf11d36cfc113598cba821') in 0.148660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001339 seconds.
+  path: Assets/Medieval house/Textures & Materials/Door.mat
+  artifactKey: Guid(92afda61ea187a84a9c8754ff53e7c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval house/Textures & Materials/Door.mat using Guid(92afda61ea187a84a9c8754ff53e7c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4c97bca00b7790e0b1d6e8e27b397d') in 4.730122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.370658 seconds.
+  path: Assets/Medieval_house_lite/Materials/m_glow.mat
+  artifactKey: Guid(af404e20dceea65489d08c4de0fedeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval_house_lite/Materials/m_glow.mat using Guid(af404e20dceea65489d08c4de0fedeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fb2699236143534b8da723e888de11') in 0.875437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 186.320255 seconds.
+  path: Assets/VillagePack/Fence/Materials/FenceCubeStick.001.mat
+  artifactKey: Guid(e44458de795d8af43a4becff72c65956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Materials/FenceCubeStick.001.mat using Guid(e44458de795d8af43a4becff72c65956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f01e9eaabc8517eaf8c8fa27bd69c34') in 0.935142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001894 seconds.
+  path: Assets/VillagePack/Fence/Materials/FenceCubeStick.mat
+  artifactKey: Guid(4f2703713ff0ab746ad8f8086784ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Materials/FenceCubeStick.mat using Guid(4f2703713ff0ab746ad8f8086784ab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00cb1f0ba2454775de545a468dcddbf') in 0.862955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/VillagePack/Fence/Materials/FenceStickBackSides.mat
+  artifactKey: Guid(cab5df8cac6b9f44599b14eb69a0ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Materials/FenceStickBackSides.mat using Guid(cab5df8cac6b9f44599b14eb69a0ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122f7d7ba015e183b0088e155073125a') in 0.321614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015324 seconds.
+  path: Assets/VillagePack/Fence/Materials/FenceStick.mat
+  artifactKey: Guid(720ab68ff89b7744db8b29afe75fd014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Materials/FenceStick.mat using Guid(720ab68ff89b7744db8b29afe75fd014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000d9121ccc8ad927fb0478af616ef1a') in 0.076567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VillagePack/Fence/Materials/FenceStick.001.mat
+  artifactKey: Guid(08aa212e2647cc04cad79a28fbe01a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Materials/FenceStick.001.mat using Guid(08aa212e2647cc04cad79a28fbe01a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc90d2dcb9534e45d67175248653088') in 0.066455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/VillagePack/Fence/Materials/FenceStickBackSides.001.mat
+  artifactKey: Guid(d7aabea3156468f41a2b29b21a11d47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Materials/FenceStickBackSides.001.mat using Guid(d7aabea3156468f41a2b29b21a11d47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930f94bf4fae23ac348be940d7355522') in 0.101918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.079015 seconds.
+  path: Assets/VillagePack/BigHouse/Materials/No Name.mat
+  artifactKey: Guid(456f24f29739caf43807dc5317e23188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/BigHouse/Materials/No Name.mat using Guid(456f24f29739caf43807dc5317e23188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5165e13f60ec84503f12cefa408b17c6') in 0.358786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006841 seconds.
+  path: Assets/VillagePack/BigHouse/Materials/VhRoofBeam.mat
+  artifactKey: Guid(dcf833537ae27f74dae7503eec6a68f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/BigHouse/Materials/VhRoofBeam.mat using Guid(dcf833537ae27f74dae7503eec6a68f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd209a750fe29c1146021b982a031b866') in 0.060146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/VillagePack/BigHouse/Materials/VillageHouseWood3.mat
+  artifactKey: Guid(94e46a3113c9d0647941ffe66d4157a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/BigHouse/Materials/VillageHouseWood3.mat using Guid(94e46a3113c9d0647941ffe66d4157a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de74a7ad9fb34347969058d061a02135') in 0.152184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/VillagePack/BigHouse/Materials/VHWallsWood.mat
+  artifactKey: Guid(327363d0e7fe60f4ba7a35acec194ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/BigHouse/Materials/VHWallsWood.mat using Guid(327363d0e7fe60f4ba7a35acec194ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f59deefca79c263575a652c1a60b04') in 0.189391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001211 seconds.
+  path: Assets/VillagePack/BigHouse/Materials/VHFloor.mat
+  artifactKey: Guid(7f335255e0b69e943a9a38f3a704e0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/BigHouse/Materials/VHFloor.mat using Guid(7f335255e0b69e943a9a38f3a704e0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77f865418c78a6767cd43ef6ec6a7dc') in 0.232824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/VillagePack/BigHouse/Materials/VHFrameWood.mat
+  artifactKey: Guid(5e46c1f423256044ba65716088265434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/BigHouse/Materials/VHFrameWood.mat using Guid(5e46c1f423256044ba65716088265434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf83e885502b045ad1a124a7f78fbd8d') in 0.569416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.929742 seconds.
+  path: Assets/VillagePack/Fence/Fence.fbx
+  artifactKey: Guid(37804f44fb6382743bfc0c7778484693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/Fence.fbx using Guid(37804f44fb6382743bfc0c7778484693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af91585fb4ec7617dfa8dcc5ce9fc98e') in 0.730268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.128216 seconds.
+  path: Assets/VillagePack/OldHouse/OldHouse.fbx
+  artifactKey: Guid(c70032afc7e2f214c8b20d1e445fb365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/OldHouse.fbx using Guid(c70032afc7e2f214c8b20d1e445fb365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3807179ad631bcd49af0ca52523641') in 1.301220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000826 seconds.
+  path: Assets/VillagePack/OldHouse/VHWallsWood.png
+  artifactKey: Guid(01538a64a4b1e9c47baacae8db4399ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHWallsWood.png using Guid(01538a64a4b1e9c47baacae8db4399ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7d87d3dcdd7fa621fd464e9e038ced') in 0.139028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/VillagePack/OldHouse/VHRoofBump.png
+  artifactKey: Guid(cf2650c5837f0e34dbd3c79ddd1e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHRoofBump.png using Guid(cf2650c5837f0e34dbd3c79ddd1e5202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e23dd42dd1af11e8c83d36e7cb445c') in 0.226758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016511 seconds.
+  path: Assets/VillagePack/OldHouse/VHDecorationWoodBump.png
+  artifactKey: Guid(b09ddd850b05c71439414e3151feccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHDecorationWoodBump.png using Guid(b09ddd850b05c71439414e3151feccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7487e513e2d4b18ee291fad50bbeaba1') in 0.051554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VillagePack/OldHouse/VHDecorationWood.png
+  artifactKey: Guid(f1f3a21fbeb4283488049ea216fcaad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHDecorationWood.png using Guid(f1f3a21fbeb4283488049ea216fcaad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3906238c45c82c305fcc7d3006459eba') in 0.045808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/VillagePack/OldHouse/VHRoofReflection.png
+  artifactKey: Guid(e5fe530986054d94fbb5d408360d7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHRoofReflection.png using Guid(e5fe530986054d94fbb5d408360d7f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7547fb144c207836516cbc37372e109e') in 0.060241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VillagePack/OldHouse/VHDecorationWoodReflection.png
+  artifactKey: Guid(8e9e9cab61928be48bc45b48888f7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHDecorationWoodReflection.png using Guid(8e9e9cab61928be48bc45b48888f7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a745164861ea9119e35d90455bbb4ef') in 0.054192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/VillagePack/OldHouse/VHRoof.png
+  artifactKey: Guid(94a894a4fbe572e48a9b42651e781fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHRoof.png using Guid(94a894a4fbe572e48a9b42651e781fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d86ad68b0ee6144540284894d5a33d7') in 0.049813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VillagePack/OldHouse/VHFrameWood.png
+  artifactKey: Guid(d5eb7e4e06f5ca34597ad309febb9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHFrameWood.png using Guid(d5eb7e4e06f5ca34597ad309febb9151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f86bc322eb9cc95715f7dde5d1347') in 0.067821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.868151 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/No Name.mat
+  artifactKey: Guid(43a9a6aacb20c3840be716775652bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/No Name.mat using Guid(43a9a6aacb20c3840be716775652bc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b22ebeece9fdf99d5cb0c2e6e5bd342') in 0.307398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001558 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VHWallsWood.mat
+  artifactKey: Guid(37551f1fd1c07e943b166847822ba51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VHWallsWood.mat using Guid(37551f1fd1c07e943b166847822ba51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42781d6ef60170ae20511876155e3cf4') in 0.079006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VHFloor.mat
+  artifactKey: Guid(2be569dd1f4f30a409fadcc6b23ac577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VHFloor.mat using Guid(2be569dd1f4f30a409fadcc6b23ac577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34a7433fa1dc6e26f1c93ac4234a199') in 0.101888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VillageHouseWood3.mat
+  artifactKey: Guid(4c25ff46585cd004986267bced340add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VillageHouseWood3.mat using Guid(4c25ff46585cd004986267bced340add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdf4ffe7cc09b78b423ce011f0359af') in 0.068744 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

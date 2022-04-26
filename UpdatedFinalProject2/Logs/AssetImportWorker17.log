@@ -1,0 +1,279 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'en' Physical Memory: 3787 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker17
+-projectPath
+C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2
+-logFile
+Logs/AssetImportWorker17.log
+-srvPort
+55494
+Successfully changed project path to: C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2
+C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 894.25 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 11.72 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bensr/Documents/CS.PSY484_Group4_Project/UpdatedFinalProject2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     1893 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018680 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 131.99 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.33 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1399ms)
+		BeginReloadAssembly (362ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (354ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (102ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (133ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.159461 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 608.73 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\bensr\Documents\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <780782bc035845f9909cebbd4c983ae3>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3674ms)
+		BeginReloadAssembly (388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (2917ms)
+			LoadAssemblies (316ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (20ms)
+			RebuildScriptCaches (469ms)
+			SetupLoadedEditorAssemblies (1476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (115ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (610ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (548ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 1.76 ms.
+Unloading 4027 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (345.4 KB). Loaded Objects now: 4507.
+Memory consumption went from 168.8 MB to 168.4 MB.
+Total: 66.098000 ms (FindLiveObjects: 8.557500 ms CreateObjectMapping: 0.266500 ms MarkObjects: 56.427600 ms  DeleteObjects: 0.840300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 328699.471168 seconds.
+  path: Assets/VillagePack/Fence/FencePrefab.prefab
+  artifactKey: Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/Fence/FencePrefab.prefab using Guid(2394d7d557201f048b00c84246231eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88df262c4e6f6a2715bf17213dc20d59') in 0.354311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.499236 seconds.
+  path: Assets/VillagePack/OldHouse/OldHousePrefab.prefab
+  artifactKey: Guid(2082f115d38a4a94fabde959cb0bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/OldHousePrefab.prefab using Guid(2082f115d38a4a94fabde959cb0bfd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e48f798033219806253100eead902d') in 0.479451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VillagePack/OldHouse/VhRoofBeamBump.png
+  artifactKey: Guid(1f2ebf25d09b1b24ca0340d76fc6c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VhRoofBeamBump.png using Guid(1f2ebf25d09b1b24ca0340d76fc6c70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148fb769fa70d15fac1a339d4dd9f8bc') in 0.176090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/VillagePack/OldHouse/VHFloorbump.png
+  artifactKey: Guid(20144227dc3d3084f855ee7bbb3e1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHFloorbump.png using Guid(20144227dc3d3084f855ee7bbb3e1cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8adfe262dd432a33f5aa8c41e1ba8bf') in 0.553916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/VillagePack/OldHouse/VHFrameWoodReflection.png
+  artifactKey: Guid(b871b2c92bb308b4899d40f7fdc11da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHFrameWoodReflection.png using Guid(b871b2c92bb308b4899d40f7fdc11da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4967b6bc175a0c5bc93af0966e09aa93') in 0.065583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/VillagePack/OldHouse/VhRoofBeam.png
+  artifactKey: Guid(96b5269f1b04f0d46b27d83b3c5c9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VhRoofBeam.png using Guid(96b5269f1b04f0d46b27d83b3c5c9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79af593b3008977ab69ef5f6be13f545') in 0.143946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VillagePack/OldHouse/VHWallsWoodReflection.png
+  artifactKey: Guid(628d677ce8e1e564fa24221710488702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHWallsWoodReflection.png using Guid(628d677ce8e1e564fa24221710488702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e637b71206aef903a62b333d4948f0') in 0.174849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/VillagePack/OldHouse/VHFloorReflection.png
+  artifactKey: Guid(69496a935f64b8d4e9af45080f1846cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHFloorReflection.png using Guid(69496a935f64b8d4e9af45080f1846cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e844e6ab1410858c0ebfd50a35c8d53') in 0.070805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/VillagePack/OldHouse/VHFrameWoodBump.png
+  artifactKey: Guid(b32f987e367a5864e8b76d58821e2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHFrameWoodBump.png using Guid(b32f987e367a5864e8b76d58821e2504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119724fcddd02578f310580e256a64cd') in 0.082282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VillagePack/OldHouse/VHWallsWoodBump.png
+  artifactKey: Guid(27cdd57b05f42c4429740b17d6318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHWallsWoodBump.png using Guid(27cdd57b05f42c4429740b17d6318ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14723d56d3ada697f8537046ed6918df') in 0.058568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/VillagePack/OldHouse/VhRoofBeamReflection.png
+  artifactKey: Guid(ab62098b6e725c14b9c87024566b2039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VhRoofBeamReflection.png using Guid(ab62098b6e725c14b9c87024566b2039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952a3e065a161481ed876825ab112c4c') in 0.127876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/VillagePack/OldHouse/VHFloor.png
+  artifactKey: Guid(7c43aecd6c9b73e46bf167c2cbbc8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/VHFloor.png using Guid(7c43aecd6c9b73e46bf167c2cbbc8ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150938aebfc1e217db62b53db74df520') in 0.161339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.722783 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VHDecorationWood.mat
+  artifactKey: Guid(a0baa4a4c92fa774e886efcf717fe9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VHDecorationWood.mat using Guid(a0baa4a4c92fa774e886efcf717fe9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc2cc672e2ea95287fe250f82513ac1') in 0.436615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VHFrameWood.mat
+  artifactKey: Guid(1156ea62e0e01d24386d2769ecbc417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VHFrameWood.mat using Guid(1156ea62e0e01d24386d2769ecbc417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994857704d2a5e88afb03de752f3e22e') in 0.083129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VhRoofBeam.mat
+  artifactKey: Guid(34d58800be5e8bb4a942977b1a299eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VhRoofBeam.mat using Guid(34d58800be5e8bb4a942977b1a299eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a559fa7ac92adac53f621949518f649b') in 0.072845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VillagePack/OldHouse/Materials/VHRoof.mat
+  artifactKey: Guid(2629454c7db903744969e6421ba20f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VillagePack/OldHouse/Materials/VHRoof.mat using Guid(2629454c7db903744969e6421ba20f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3a2f91bdaeae7aad6c2a2c22fe46b1') in 0.057359 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
