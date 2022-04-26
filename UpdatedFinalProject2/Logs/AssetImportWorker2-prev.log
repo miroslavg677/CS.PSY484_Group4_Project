@@ -15,7 +15,7 @@ E:/CS484_Repo/CS.PSY484_Group4_Project/UpdatedFinalProject2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55704
+49863
 Successfully changed project path to: E:/CS484_Repo/CS.PSY484_Group4_Project/UpdatedFinalProject2
 E:/CS484_Repo/CS.PSY484_Group4_Project/UpdatedFinalProject2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ E:/CS484_Repo/CS.PSY484_Group4_Project/UpdatedFinalProject2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 179.30 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 2.30 ms.
+Refreshing native plugins compatible for Editor in 193.59 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 2.05 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/CS484_Repo/CS.PSY484_Group4_Project/UpdatedFinalProject2/Assets
@@ -63,49 +63,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files (x86)/Unity/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011728 seconds.
+Registered in 0.009263 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 107.39 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.25 ms.
+Refreshing native plugins compatible for Editor in 75.36 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
+- Completed reload, in  0.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (855ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (627ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (605ms)
-			LoadAssemblies (116ms)
+		EndReloadAssembly (429ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (381ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
+				InitializePlatformSupportModulesInManaged (50ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014786 seconds.
+Registered in 0.005363 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\CS484_Repo\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image E:\CS484_Repo\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -113,8 +113,8 @@ Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.05 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 75.75 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in E:\CS484_Repo\CS.PSY484_Group4_Project\UpdatedFinalProject2\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
@@ -132,43 +132,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.594 seconds
+- Completed reload, in  1.154 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1595ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (136ms)
-		EndReloadAssembly (1218ms)
-			LoadAssemblies (132ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (655ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (447ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (355ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 47 unused Assets / (345.6 KB). Loaded Objects now: 4502.
-Memory consumption went from 167.7 MB to 167.4 MB.
-Total: 7.345200 ms (FindLiveObjects: 0.624500 ms CreateObjectMapping: 0.823400 ms MarkObjects: 5.563200 ms  DeleteObjects: 0.332700 ms)
+Unloading 47 unused Assets / (346.5 KB). Loaded Objects now: 4503.
+Memory consumption went from 168.1 MB to 167.8 MB.
+Total: 3.109400 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.120400 ms MarkObjects: 2.504500 ms  DeleteObjects: 0.156500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,143 +183,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 98574.677512 seconds.
-  path: Assets/ExampleAssets/Textures/Grid_Light_512x512.png
-  artifactKey: Guid(a5888ab2610a91d40a5deefc40b7bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/Grid_Light_512x512.png using Guid(a5888ab2610a91d40a5deefc40b7bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cabdd40a0ca4be5582da3b55bb5b14d') in 0.088467 seconds 
+  Time since last request: 101618.773829 seconds.
+  path: Assets/Compass/compass_FBX.fbx
+  artifactKey: Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/compass_FBX.fbx using Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff9745ae5267b017ce61356fbfc3346') in 0.502884 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-albedo.png
-  artifactKey: Guid(3c48fe66dc89af64bb5c4116acb4f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-albedo.png using Guid(3c48fe66dc89af64bb5c4116acb4f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15691712a0eae939a3954f73adf7488f') in 0.021271 seconds 
+  Time since last request: 54.059365 seconds.
+  path: Assets/Compass/CompassBody.mat
+  artifactKey: Guid(39763fb24777b454cb9a04b4e6d09f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/CompassBody.mat using Guid(39763fb24777b454cb9a04b4e6d09f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cf335305ad8bbda83eb317fd5449c4') in 0.032562 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044277 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-normal.png
-  artifactKey: Guid(fdb0bc87743735c4b8ad3b4297192a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-normal.png using Guid(fdb0bc87743735c4b8ad3b4297192a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd549a5e2574ddfddf368f91ca74036') in 0.053343 seconds 
+  Time since last request: 48.707438 seconds.
+  path: Assets/Compass/compass_FBX.fbx
+  artifactKey: Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/compass_FBX.fbx using Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af148936d8abe4735ddeb30315d021e1') in 0.092856 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.296209 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor1Stone-normal.png
-  artifactKey: Guid(076c020983222dc4d8bf1cd40dfba3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor1Stone-normal.png using Guid(076c020983222dc4d8bf1cd40dfba3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c556020e45fc84ae706cb19141b8b03f') in 0.018913 seconds 
+  Time since last request: 12.239039 seconds.
+  path: Assets/Compass/compass_FBX.fbx
+  artifactKey: Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/compass_FBX.fbx using Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d09b9e295a6124ef1db70690c798576') in 0.080305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.074047 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor2Wood-normal.png
-  artifactKey: Guid(f68136c0ca21e554799ddc48b87da01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor2Wood-normal.png using Guid(f68136c0ca21e554799ddc48b87da01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f022e74b0d7b59aedfc55b937d5d36') in 0.018481 seconds 
+  Time since last request: 40.656428 seconds.
+  path: Assets/Compass/compass_FBX.fbx
+  artifactKey: Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/compass_FBX.fbx using Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd826ff88a1fc956fd7342a8fc352d90') in 0.159366 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.012116 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseWall-albedo.png
-  artifactKey: Guid(32d1d1e38d920c04d9dd15d56b9857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWall-albedo.png using Guid(32d1d1e38d920c04d9dd15d56b9857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17dcebc94ef84a1b4247553200b2b94') in 0.035909 seconds 
+  Time since last request: 75.927614 seconds.
+  path: Assets/Compass/compass_FBX.fbx
+  artifactKey: Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/compass_FBX.fbx using Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7efa0dc8173c4374dcf07d3017aa20a') in 0.409268 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.291450 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseWallInside-normal.png
-  artifactKey: Guid(58c01f65c18033749b58134b862d8999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWallInside-normal.png using Guid(58c01f65c18033749b58134b862d8999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834b90feb4674074482eb5931e5a0af0') in 0.016267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038596 seconds.
-  path: Assets/STS_FreeMedievalHouse/Materials/HouseWood-normal.png
-  artifactKey: Guid(79ac7aabecec2e54c9fc2fa108d176b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWood-normal.png using Guid(79ac7aabecec2e54c9fc2fa108d176b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45e1d0b4e69a70c11b52946fa50b52e') in 0.026236 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029185 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_3.png
-  artifactKey: Guid(373f9bf6b0841af4ebf26d25e4a3f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_3.png using Guid(373f9bf6b0841af4ebf26d25e4a3f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8ae9bdf5a945cc3cd43cdf013f00d4') in 0.026282 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.241417 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_5.png
-  artifactKey: Guid(a1ae041906217ae44a774d4ca139af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_5.png using Guid(a1ae041906217ae44a774d4ca139af50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fdf9ff5a54f2b184cf12244ff49708') in 0.020990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023989 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png
-  artifactKey: Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_7.png using Guid(3ac02e7e783571c468f9c086d2384ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecf6db83bddf82a3833a11500f11991') in 0.022627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028654 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png
-  artifactKey: Guid(71583cfd8899717428d5b1a95fa39cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_9.png using Guid(71583cfd8899717428d5b1a95fa39cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1851cdefbfa0dace71b997a19d6e0127') in 0.021079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.245422 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_11.png
-  artifactKey: Guid(771903fe7b4674445829e52e91cff019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_11.png using Guid(771903fe7b4674445829e52e91cff019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd1a429ef947d11af999c48fe650ede') in 0.022354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028188 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png
-  artifactKey: Guid(68613e6a221be1a4b9f31d7fa1c2d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_13.png using Guid(68613e6a221be1a4b9f31d7fa1c2d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04253ec2d23a9b095fcd3f0565090fbe') in 0.027605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011966 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_17.png
-  artifactKey: Guid(bf95b6fdc179b0e4f890c841406193fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_17.png using Guid(bf95b6fdc179b0e4f890c841406193fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc7e6c705d6fd80b8edac64f52a4049') in 0.021005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053262 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_19.png
-  artifactKey: Guid(729a3ae164bcb3b4380459386adcf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Resources/Bluenoise64/LDR_LLL1_19.png using Guid(729a3ae164bcb3b4380459386adcf331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0596d675bc7bbf1cb70c1b5d67b44628') in 0.022252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.444991 seconds.
-  path: Assets/Playground Low Poly/Maps/Overview/Lightmap-3_comp_dir.png
-  artifactKey: Guid(f7ba621f30bc60142811ff625bfb3726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playground Low Poly/Maps/Overview/Lightmap-3_comp_dir.png using Guid(f7ba621f30bc60142811ff625bfb3726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099418986c29471094f75976019c9df1') in 0.036640 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png
-  artifactKey: Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png using Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2562f0c2c60fb5b2530bf881d4e57aec') in 0.029421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.532022 seconds.
-  path: Assets/DreamForestTree/PostProcessing/Textures/Lens Dirt/LensDirt00.png
-  artifactKey: Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/PostProcessing/Textures/Lens Dirt/LensDirt00.png using Guid(69e847bbff1cf5449a4ee0bbd045dbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d84d8b381a63ab3845adf8f35b79d5') in 0.022016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.854436 seconds.
-  path: Assets/ExampleAssets/Tutorial/Images/project-header-vr.png
-  artifactKey: Guid(6eaf09dd6cc8a49708bf60691e32bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Tutorial/Images/project-header-vr.png using Guid(6eaf09dd6cc8a49708bf60691e32bebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00dec3937ed3110c9c71d19903b130e') in 0.028297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.443030 seconds.
-  path: Assets/DreamForestTree/Textures/Ground/Rock Grs 2.psd
-  artifactKey: Guid(60f7afa6d7b152047a511ec0992a1457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/Textures/Ground/Rock Grs 2.psd using Guid(60f7afa6d7b152047a511ec0992a1457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc149f3625a6d8fbd26f8009690cfc26') in 0.021923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.112579 seconds.
-  path: Assets/DreamForestTree/Textures/Ground/NewBrush 1.brush
-  artifactKey: Guid(04e665f55e6792345a47a442ac10a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/Textures/Ground/NewBrush 1.brush using Guid(04e665f55e6792345a47a442ac10a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5660d7efb3803df39280c8e6f268cdf6') in 0.039309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/DreamForestTree/Textures/Ground/NewBrush 6.brush
-  artifactKey: Guid(c684e13de92d3cf4480bc4d10900ffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DreamForestTree/Textures/Ground/NewBrush 6.brush using Guid(c684e13de92d3cf4480bc4d10900ffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193732a977db948b098384519209b355') in 0.017956 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 12.916242 seconds.
+  path: Assets/Compass/compass_FBX.fbx
+  artifactKey: Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Compass/compass_FBX.fbx using Guid(feae6539eb9bcca4e8879a7075784880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca1e1b36de3e871012311c4557a13df') in 0.095028 seconds 

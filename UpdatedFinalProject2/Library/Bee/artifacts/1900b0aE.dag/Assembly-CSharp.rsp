@@ -414,6 +414,8 @@
 "Assets/DreamForestTree/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
 "Assets/DreamForestTree/Script/FreeCam.cs"
 "Assets/DreamForestTree/Script/ScrollUVWater.cs"
+"Assets/Scrips/Compass.cs"
+"Assets/Scrips/CompassManager.cs"
 -langversion:9.0
 
 /deterministic
