@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class CongratsText : Compass
+public class CongratsText : MonoBehaviour
 {
+    public CompassManager Compass_Manager;
     public TextMeshProUGUI endText;
 
     // Start is called before the first frame update
@@ -17,6 +18,8 @@ public class CongratsText : Compass
     void Update()
     {
         if (Compass_Manager.NumOfCompsLeft == 0)
+        {
             endText.text = "Congratulations!\n\nYou found all the compasses!";
+        }
     }
 }

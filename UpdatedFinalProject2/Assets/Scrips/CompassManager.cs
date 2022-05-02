@@ -7,6 +7,7 @@ using UnityEngine;
 public class CompassManager : MonoBehaviour
 {
     public int NumOfCompsLeft;
+    public ScoreUpdate Score_Update;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +28,7 @@ public class CompassManager : MonoBehaviour
 
     IEnumerator GameOverRoutine()
     {
-        //Activate the end screen
+        Score_Update.DisplayGameOverMessage();//Activate the end screen
 
         yield return new WaitForSeconds(30); //Wait for 30 seconds
 

@@ -6,6 +6,7 @@ using TMPro;
 public class Compass : MonoBehaviour
 {
     public CompassManager Compass_Manager;
+    public ScoreUpdate Score_Update;
     
     // Start is called before the first frame update
     void Start()
@@ -21,16 +22,16 @@ public class Compass : MonoBehaviour
 
     public void PickedUp()
     {
-        StartCoroutine(ObjectPickedUp());
+        Compass_Manager.NumOfCompsLeft --; //Update the number
+        Score_Update.UpdateNum(Compass_Manager.NumOfCompsLeft); //Update the UI
+        Destroy(this.gameObject);
     }
 
     IEnumerator ObjectPickedUp()
     {
         Compass_Manager.NumOfCompsLeft -= 1; //Update the number
-        //Update the UI Here
-            //UIs have their own update script due to connection bugging
-
-        yield return new WaitForSeconds(1);
+        Score_Update.UpdateNum(Compass_Manager.NumOfCompsLeft); //Update the UI
+        yield return new WaitForSeconds(0.5f);
         Destroy(this.gameObject);
 
     }
