@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Compass : MonoBehaviour
 {
@@ -26,7 +27,9 @@ public class Compass : MonoBehaviour
     IEnumerator ObjectPickedUp()
     {
         Compass_Manager.NumOfCompsLeft -= 1; //Update the number
-        //Update the UI here
+        //Update the UI Here
+            //UIs have their own update script due to connection bugging
+
         yield return new WaitForSeconds(1);
         Destroy(this.gameObject);
 
