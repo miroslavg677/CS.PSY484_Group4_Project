@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Compass : MonoBehaviour
 {
+    public CompassManager Compass_Manager;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,19 @@ public class Compass : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void PickedUp()
+    {
+        StartCoroutine(ObjectPickedUp());
+    }
+
+    IEnumerator ObjectPickedUp()
+    {
+        Compass_Manager.NumOfCompsLeft -= 1; //Update the number
+        //Update the UI here
+        yield return new WaitForSeconds(1);
+        Destroy(this.gameObject);
+
     }
 }
